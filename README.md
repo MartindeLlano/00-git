@@ -15,10 +15,12 @@ cd + dirección de carpeta           #-, posicionarse en una carpeta desde el gi
 git checkout master                 #-, es la rama master    
 
 ## rama nueva 
-git checkout -b "el nombre de la rama"
-git checkout "el nombre de la rama al que se le quiere cambiar el nombre"
-git merge "se pone el nombre de la rama que se quiere fusionar "
-
+git checkout -b (rama) "crea la rama"
+git checkout (rama) "cambia de rama"
+git merge (rama) "para fusionar ramas"
+git difftool (rama) "marca las diferencias entre ramas"
+git stash "limpia el commit, para descartas cambios"
+git push --upstream origin (rama) "crea la rama en el github"
 
 
 ```
