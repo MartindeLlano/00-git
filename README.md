@@ -12,4 +12,13 @@ git log								#-, ver todos los commits
 git clone                           #-, clonar lo que haya en el github a la compu
 git pull                            #-, actualiza el repositorio remoto con el local
 cd + dirección de carpeta           #-, posicionarse en una carpeta desde el git
+git checkout master                 #-, es la rama master    
+
+## rama nueva 
+git checkout -b "el nombre de la rama"
+git checkout "el nombre de la rama al que se le quiere cambiar el nombre"
+git merge "se pone el nombre de la rama que se quiere fusionar "
+
+
+
 ```
